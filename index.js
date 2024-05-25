@@ -5,7 +5,7 @@ const app = express();
 
 app.use(express.json());
 
-app.get('/my-app', (req, res) => {
+app.get('/irn', (req, res) => {
   const jambonz = new WebhookResponse();
   jambonz
     .pause({length: 1.5})
