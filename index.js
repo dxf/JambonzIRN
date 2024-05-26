@@ -28,7 +28,7 @@ app.get('/phil', (req, res) => {
 app.get('/stairway', (req, res) => {
   const jambonz = new WebhookResponse();
   jambonz
-    .pause({length: 1.5})
+    .pause({length: 0.1})
     .play({
       url: 'https://wish2.soundsip.com/sugarstream/vako/files/Mp3%20Songs/English%20MP3%20Songs/Requested%20English%20Songs/Led%20Zepplin%20-%20Stairway%20to%20Heaven.mp3'
     });
