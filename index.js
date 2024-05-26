@@ -20,7 +20,7 @@ app.get('/phil', (req, res) => {
   jambonz
     .pause({length: 1.5})
     .play({
-      url: 'http://streaming.broadcastradio.com:8420/brorad'
+      url: 'https://streaming.broadcastradio.com:8420/brorad'
     });
   res.status(200).json(jambonz);
 });
